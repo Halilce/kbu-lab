@@ -1,0 +1,42 @@
+-------------------
+KOMUTLAR
+-------------------
+
+#!/bin/bash
+
+# Masaüstüne git
+cd ~/Desktop
+
+# Halil klasörünü oluştur
+mkdir -p halil
+
+# Okul numarasını içeren dosya oluştur
+echo "Okul Numarası: 2024001" > halil/okul_numarasi.txt
+
+# Halil klasörünü ve içindeki dosyayı kbu-lab/project içine kopyala
+cp -r halil ~/Desktop/kbu-lab/project/
+
+echo "İşlemler tamamlandı!"
+echo "Oluşturulan yapı:"
+ls -R ~/Desktop/halil
+echo ""
+echo "Kopyalanan konum:"
+ls -R ~/Desktop/kbu-lab/project/halil
+
+-------------------
+UYGULA VE ÇALIŞTIR
+-------------------
+
+# 1. Masaüstüne git
+cd ~/Desktop
+
+# 2. Script dosyasını oluştur
+nano proje.sh
+
+# 3. Yukarıdaki kodu yapıştır, Ctrl+X, Y, Enter
+
+# 4. Çalıştırılabilir yap
+chmod +x proje.sh
+
+# 5. Çalıştır
+./proje.sh

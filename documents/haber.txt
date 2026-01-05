@@ -1,0 +1,12 @@
+Selamun Aleyküm Gençler,
+Bu labaratuvarda yaptığımız çalışma sizlerin geleceğe hazırlanmanızı sağlamaktır.
+Lütfen bu konularda gayretli ve azimli olun.
+Altta verdiğim teknolojik gelişmeler ile ilgili haber içersinde geçen metin araştırmak için soru 8 den bu dosyay geldiniz.
+
+Haber Başlığı: Hava devriyesi görevi
+Kaynak: https://www.trthaber.com/haber/savunma/turkiyeden-havacilikta-dunyada-bir-ilk-929872.html
+
+Uçuş testinde modern hava muharebesinin temel unsurlarından biri olan CAP (Combat Air Patrol - Hava Devriyesi) görevi de denendi. Bayraktar KIZILELMA prototipleri, filo otonomisi yazılımları eşliğinde belirlenen rotada devriye uçuşu gerçekleştirdi. Böylece hava savunma görevlerinin milli insansız savaş uçağı tarafından filo halinde yapılabilirliği doğrulandı. Savaş uçaklarının belirli bölgeleri korumak amacıyla icra ettiği devriye ve önleme görevleri, gelecekte Bayraktar KIZILELMA filoları tarafından otonom olarak gerçekleştirilebilecek.
+Test süreci boyunca insansız savaş uçaklarının otonom sistemleri ve birlikte harekat süreçleri yakından takip edildi. Baykar’ın tamamen öz kaynaklarıyla geliştirdiği Bayraktar KIZILELMA, sahip olduğu akıllı filo otonomisi altyapısı sayesinde gelecekte çoklu platformlarla koordineli harekat yapabilme kabiliyetini geliştirmeye devam edecek.
+Bayraktar KIZILELMA, 29 Kasım'da gerçekleştirilen testte dünya havacılık tarihine geçmişti. Sinop açıklarında yapılan tarihi testte, ASELSAN imzalı MURAD AESA radarının işaretlediği hedef uçağı TÜBİTAK SAGE tarafından geliştirilen GÖKDOĞAN füzesiyle tam isabetle vuran Bayraktar KIZILELMA, dünyada görüş ötesi hava-hava füzesi kullanarak jet motorlu bir hava hedefini imha eden ilk insansız savaş uçağı olmuştu.
+Dünyanın en büyük insansız hava aracı şirketi olan Baykar, Bayraktar TB2 SİHA için 36 ülkeyle, Bayraktar AKINCI TİHA için ise şimdiye kadar 16 ülke ile olmak üzere toplam 37 ülkeyle ihracat anlaşması imzaladı.

@@ -1,0 +1,12 @@
+Kali Linux Komutları:
+find . -type d -name "resimler" | Dizin Arama
+cd | Dizinler arasında hareket
+
+# klasör içerisinde bulunan profile2.jpg dosyasını açın ve kaç kişi var sonucunu yazın
+Ör: firefox resim.jpg
+
+Cevap: (Eksiksiz Yazın)
+İzlenen adımlar (adımları yazmayı unutmayın)
+Kişi: 5 (örnektir)
+Admin: Halo
+Şifre: 77Y61076
