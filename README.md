@@ -1,0 +1,1 @@
+Öğrencilerin bash script yaklaşımını öğrenmeleri için basit bir labaratuvar mantığı uygulanmıştır.
