@@ -1,42 +1,15 @@
--------------------
-KOMUTLAR
--------------------
-
-#!/bin/bash
-
-# Masaüstüne git
-cd ~/Desktop
-
-# Halil klasörünü oluştur
-mkdir -p halil
-
-# Okul numarasını içeren dosya oluştur
-echo "Okul Numarası: 2024001" > halil/okul_numarasi.txt
-
-# Halil klasörünü ve içindeki dosyayı kbu-lab/project içine kopyala
-cp -r halil ~/Desktop/kbu-lab/project/
-
-echo "İşlemler tamamlandı!"
-echo "Oluşturulan yapı:"
-ls -R ~/Desktop/halil
-echo ""
-echo "Kopyalanan konum:"
-ls -R ~/Desktop/kbu-lab/project/halil
-
--------------------
-UYGULA VE ÇALIŞTIR
--------------------
+Soru 10 da aşağıdaki işlem adımlarını yazan komutları soru kağıdına yazınız.
 
 # 1. Masaüstüne git
-cd ~/Desktop
-
 # 2. Script dosyasını oluştur
-nano proje.sh
-
-# 3. Yukarıdaki kodu yapıştır, Ctrl+X, Y, Enter
-
+# 3. Script kodlarını yaz
+-- # “Kendi isminizde” klasörünü oluştur
+-- # Klasörün içerisinde Okul numarasını içeren dosya oluştur
+-- # Dosyanın ilk satırına hack.txt dosyasındaki "Abdullah Kul" kullanıcısının bilgilerini yaz.
+-- # “Kendi isminizde” klasörünü ve içindeki dosyayı kbu-lab/project içine kopyala
 # 4. Çalıştırılabilir yap
-chmod +x proje.sh
-
 # 5. Çalıştır
-./proje.sh
+
+
+Kullanılması istenilen komutlar:
+cd, nano, mkdir, touch, grep, cp, chmod, ./script.sh

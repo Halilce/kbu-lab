@@ -450,7 +450,23 @@ chmod +x sistem_bilgi.sh
 ./sistem_bilgi.sh
 ```
 
-### Örnek 2: Dizin Organizasyonu
+### Örnek 2: Dizin Uygulaması
+```bash
+cd ~/Desktop
+nano script.sh
+
+#!/bin/bash
+mkdir -p ~/Desktop/Halil
+touch ~/Desktop/Halil/12345.txt
+grep "Halil" hack.txt > ~/Desktop/Halil/12345.txt
+mkdir -p ~/kbu-lab/project
+cp -r ~/Desktop/Halil ~/kbu-lab/project/
+
+chmod +x script.sh
+./script.sh
+```
+
+### Örnek 3: Dizin Organizasyonu
 ```bash
 #!/bin/bash
 echo "Proje yapısı oluşturuluyor..."
