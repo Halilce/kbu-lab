@@ -2,11 +2,26 @@ Kali Linux Komutları:
 find . -type d -name "resimler" | Dizin Arama
 cd | Dizinler arasında hareket
 
-# klasör içerisinde bulunan profile2.jpg dosyasını açın ve kaç kişi var sonucunu yazın
+Şifre Kırma Adımları:
+
+# 1. Hash dosyasını oku ve görüntüle
+cat hash.txt
+
+# 2. Hash türünü belirle
+hashid hash.txt
+
+# 3. John ile SHA256 hash'i kır
+john --format=Raw-SHA256 hash.txt --wordlist=/usr/share/wordlists/rockyou.txt
+
+# 4. Kırılan şifreyi göster
+john --show --format=Raw-SHA256 hash.txt
+
+# klasör içerisinde bulunan profile1.jpg dosyasını açın ve bilgisayar üzerindeki etiketin ne olduğunu yazın
 Ör: firefox resim.jpg
 
 Cevap: (Eksiksiz Yazın)
 İzlenen adımlar (adımları yazmayı unutmayın)
 Kişi: 5 (örnektir)
 Admin: Halo
-Şifre: 77Y61076
+Şifre: f896aeca5621e8943a080ad507d45928d93b09bfc984918e4b3a27ce5e9c66cd
+(Şifrenin: SHA256 ile şifrelenmiş bilgidir. Gerçek değerini yazınız.)

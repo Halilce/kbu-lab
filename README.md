@@ -429,6 +429,55 @@ xdg-open /home/kali/Downloads/foto.jpg
 # Yöntem 4: Firefox ile
 firefox resim.jpg
 ```
+
+#### Pratik HASH Oluşturma
+```bash
+# Tek hash analizi
+hashid '5f4dcc3b5aa765d61d8327deb882cf99'
+# Detaylı bilgi
+hashid -m '5f4dcc3b5aa765d61d8327deb882cf99'
+# Dosyadan okuma
+hashid -m hashes.txt
+
+---
+
+# Tüm formatları listele
+john --list=formats
+
+# Hash dosyası oluştur (hash.txt)
+echo '5f4dcc3b5aa765d61d8327deb882cf99' > hash.txt
+# Format belirterek kır
+john --format=Raw-MD5 hash.txt
+# Sonuçları göster
+john --show --format=Raw-MD5 hash.txt
+
+---
+
+# Incremental mode (brute force)
+john --incremental hash.txt
+# Belirli karakter seti ile
+john --incremental=Digits --format=Raw-MD5 hash.txt
+# Maksimum uzunluk belirtme
+john --incremental --max-length=6 hash.txt
+
+---
+
+# /etc/shadow formatında hash
+# Format: kullanıcı:$6$salt$hash
+echo 'admin:$6$rounds=5000$saltsaltsal$hash_değeri' > shadow.txt
+# Kır
+john --wordlist=/usr/share/wordlists/rockyou.txt shadow.txt
+# Sonuçları göster
+john --show shadow.txt
+
+---
+
+# Rockyou wordlist'i kullan
+john --wordlist=/usr/share/wordlists/rockyou.txt --format=Raw-MD5 hash.txt
+
+# Özel wordlist
+john --wordlist=/home/user/wordlist.txt --format=Raw-MD5 hash.txt
+```
 ---
 
 ## Örnek Uygulamalar
