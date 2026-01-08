@@ -506,7 +506,9 @@ john --wordlist=/home/user/wordlist.txt --format=Raw-MD5 hash.txt
 ```
 ---
 
-## Örnek Uygulamalar
+## Örnek Uygulamalar ve Kaynaklar
+
+https://emn178.github.io/online-tools/sha256.html
 
 ### Örnek 1: Basit Bilgi Script
 ```bash
