@@ -1,0 +1,15 @@
+Soru 10 da aşağıdaki işlem adımlarını yazan komutları soru kağıdına yazınız.
+
+# 1. Masaüstüne git
+# 2. Script dosyasını oluştur
+# 3. Script kodlarını yaz
+-- # “Kendi isminizde” klasörünü oluştur
+-- # Klasörün içerisinde Okul numarasını içeren dosya oluştur
+-- # Dosyanın ilk satırına hack.txt dosyasındaki "Abdullah Kul" kullanıcısının bilgilerini yaz.
+-- # “Kendi isminizde” klasörünü ve içindeki dosyayı kbu-lab/project içine kopyala
+# 4. Çalıştırılabilir yap
+# 5. Çalıştır
+
+
+Kullanılması istenilen komutlar:
+cd, nano, mkdir, touch, grep, cp, chmod, ./script.sh

@@ -2,8 +2,8 @@ Kali Linux Komutları:
 grep | Metin arama komutudur.
 -c   | satır sayısını vermektedir.
 
-# Labaratuvarda metin.txt dosyasını bulup içerisindeki "otonom" geçen kelime sayısının sonucunu yazınız.
-grep -c "otonom" haber.txt
+# Labaratuvarda metin.txt dosyasını bulup içerisindeki "KIZILELMA" geçen kelime sayısının sonucunu yazınız.
+grep -c "KIZILELMA" haber.txt
 
 Cevap:
-Otonom: 5 (örnektir)
+KIZILELMA: 5 (örnektir)
