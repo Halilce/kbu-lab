@@ -17,7 +17,24 @@ cd final
 git clone --depth 1 --filter=blob:none --sparse https://github.com/Halilce/kbu-lab.git
 ```
 
-### 3. Repo Klasörüne Girme
+**# 1. Git cache'den dosyayı kaldır (yerel dosya kalır)**
+git rm --cached hash.txt
+
+**# Veya klasör için**
+git rm -r --cached Desktop/Halil/
+
+**# 2. .gitignore'a ekle**
+echo "hash.txt" >> .gitignore
+
+**# Veya nano ile düzenle**
+nano .gitignore
+
+**# 3. Değişiklikleri kaydet**
+git add .
+git commit -m "Dosya gizlendi"
+git push
+
+**### 3. Repo Klasörüne Girme**
 ```bash
 cd kbu-lab
 ```
