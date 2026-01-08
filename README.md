@@ -411,8 +411,17 @@ du -sh klasor
 # Disk kullanımını göster
 df -h
 
+# Detaylı liste ile
+ls -la
+
+# Sadece gizli dosyaları göster
+ls -d .*
+
 # Ağaç yapısında göster (tree kuruluysa)
 tree klasor
+
+# Tree ile (tüm gizli dosyalar dahil)
+tree -a
 
 # Son değiştirilen dosyaları bul
 find klasor -type f -mtime -7
