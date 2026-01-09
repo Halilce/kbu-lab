@@ -1,0 +1,10 @@
+
+Şifrelenmiş veriye ait aşağıdaki bilgileri doğru şekilde doldur, 
+eksik şifrelenmiş parolası olan kullanıcıyı bul ve bilgileri doldur.
+
+
+Kullanıcı Adı: (Senin Adın)
+Şifre: (Eksik şifreli parola)
+Profil Resmi: (Soru-9 yer alıyor)
+Ip Addresi: (Kali Linux Komutunu Yaz)
+Yeni Klasör: (Kali Linux Komutunu Yaz)

@@ -554,6 +554,15 @@ echo "Dizinler oluşturuldu!"
 ls -R
 ```
 
+### Ödevde Kullanılacak Kaynaklar
+```bash
+QR Code Tarama:
+https://www.the-qrcode-generator.com/
+
+Şifre Çözümleme (AES-256):
+https://emn178.github.io/online-tools/aes/decrypt/
+```
+
 ---
 
 **Hazırlayan:** Öğr. Gör. Halil Arslan

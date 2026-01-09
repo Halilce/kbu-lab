@@ -22,6 +22,6 @@ john --show --format=Raw-SHA256 hash.txt
 Cevap: (Eksiksiz Yazın)
 İzlenen adımlar (adımları yazmayı unutmayın)
 Kişi: 5 (örnektir)
-Admin: Halo
-Şifre: f896aeca5621e8943a080ad507d45928d93b09bfc984918e4b3a27ce5e9c66cd
+Admin: Halil Arslan
+Şifre: 53616c7465645f5fb0882af06cd4fc1f1b1aeab0b41ea0416d1a4bae8b3a706526590e39e9aef346375deba058ad2a2d861b4ec90cfed5579438d4dc346b5b13
 (Şifrenin: SHA256 ile şifrelenmiş bilgidir. Gerçek değerini yazınız.)
